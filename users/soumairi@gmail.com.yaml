@@ -1,0 +1,8 @@
+name: 'Mouhssine Soumairi'
+super: true
+id: ed1e185b-9236-4a39-a71a-717d49a130ab
+password_hash: $2y$10$psAn2Kx3CrQwdwmLDrkNgeDj09CIzl8J1X/MCMMiRoAH0YLApQSKK
+preferences:
+  assets:
+    assets:
+      mode: grid

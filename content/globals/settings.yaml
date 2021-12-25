@@ -1,0 +1,18 @@
+title: Settings
+data:
+  site_name: 'Soumairi Mouhssine'
+  personality: casual
+  show_signup: false
+  social:
+    -
+      name: Github
+      url: 'https://github.com/soumairi'
+      icon: site/social-icons/github.svg
+    -
+      name: Email
+      url: mouhssine@soumairi.com
+      icon: site/social-icons/email.svg
+    -
+      name: LinkedIn
+      url: 'https://www.linkedin.com/in/mouhssine-soumairi-05a5774a/'
+      icon: site/social-icons/linkedin.svg
