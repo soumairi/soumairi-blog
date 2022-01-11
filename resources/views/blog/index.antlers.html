@@ -1,8 +1,16 @@
 <article class="max-w-6xl mx-auto px-3">
     <header class="mx-auto max-w-xl text-center content">
-        <h1 class="mb-4">Blog</h1>
-        <p>This is description of the type of content you would expect to read here on this blog.</p>
+        <section class="flex flex-col items-center">
+            <img src="https://media-exp1.licdn.com/dms/image/C5603AQEw9rxiXzSWmQ/profile-displayphoto-shrink_800_800/0/1640123960827?e=1647475200&v=beta&t=d_QXQrkCifSQWI0QxhCfNNbI8qupfRrG16SdYtyHL2s" alt="Avatar" style="border-radius: 50%;width: 30%;">
+            <h3 class="heading-top">Full stack web developer for Laravel, Symfony, NodeJs and ReactJs</h3>
+            <p class="heading-bottom">It's my ambition to build solid, stable and extendable web applications, which are fun to use and helpful in your daily business.</p>
+        </section>
+        <hr class="my-10 border-teal-500">
     </header>
+    <div class="mx-auto max-w-xl text-center">
+        <h2 class="text-3xl font-black">My blog</h2>
+        <h2 class="text-2xl mt-2 text-teal-400 font-black">I love to share.</h2>
+    </div>
     {{ collection:blog as="posts" paginate="12" }}
     <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
         {{ posts }}
